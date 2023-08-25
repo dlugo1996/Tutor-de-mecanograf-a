@@ -232,9 +232,9 @@ public class Teclado extends JFrame {
     }
 
     private void borrarUltimoCaracter() {
-        String textoTipeadoActual = textoInsertado.getText();
-        if (!textoTipeadoActual.isEmpty()) {
-            textoInsertado.setText(textoTipeadoActual.substring(0, textoTipeadoActual.length() - 1));
+        String textoInsertadoActual = textoInsertado.getText();
+        if (!textoInsertadoActual.isEmpty()) {
+            textoInsertado.setText(textoInsertadoActual.substring(0, textoInsertadoActual.length() - 1));
         }
     }
 
