@@ -120,7 +120,7 @@ public class Teclado extends JFrame {
         pangrama = new ArrayList<>();
 
         try {
-            FileReader fileReader = new FileReader("C:\\Users\\User\\eclipse-workspace\\Tutor_Mecanografía\\src\\Teclado_error\\pangramasLugo.txt");
+            FileReader fileReader = new FileReader("C:\\Users\\User\\git\\repository4\\Tutor_Mecanografía\\src\\Teclado_error\\pangramasLugo.txt");
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             String linea;
 
